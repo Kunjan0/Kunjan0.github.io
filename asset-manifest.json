@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e8ec3a86.css",
-    "main.js": "/static/js/main.6d066ec1.js",
+    "main.js": "/static/js/main.ce9c7c7d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
     "static/media/typescript.png": "/static/media/typescript.17936c69824e11a996c4.png",
@@ -20,11 +20,11 @@
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.e8ec3a86.css.map": "/static/css/main.e8ec3a86.css.map",
-    "main.6d066ec1.js.map": "/static/js/main.6d066ec1.js.map",
+    "main.ce9c7c7d.js.map": "/static/js/main.ce9c7c7d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ec3a86.css",
-    "static/js/main.6d066ec1.js"
+    "static/js/main.ce9c7c7d.js"
   ]
 }
