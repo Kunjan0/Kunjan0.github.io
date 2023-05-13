@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.15d360d8.css",
+    "main.css": "/static/css/main.0fd0c66b.css",
     "main.js": "/static/js/main.f1bdcea7.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kunjan_Ballawar_Resume.pdf": "/static/media/Kunjan_Ballawar_Resume.15f3b26ee1ed1863c564.pdf",
@@ -20,12 +20,12 @@
     "index.html": "/index.html",
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.15d360d8.css.map": "/static/css/main.15d360d8.css.map",
+    "main.0fd0c66b.css.map": "/static/css/main.0fd0c66b.css.map",
     "main.f1bdcea7.js.map": "/static/js/main.f1bdcea7.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15d360d8.css",
+    "static/css/main.0fd0c66b.css",
     "static/js/main.f1bdcea7.js"
   ]
 }
