@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0fd0c66b.css",
-    "main.js": "/static/js/main.f1bdcea7.js",
+    "main.js": "/static/js/main.b91aa914.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Kunjan_Ballawar_Resume.pdf": "/static/media/Kunjan_Ballawar_Resume.15f3b26ee1ed1863c564.pdf",
+    "static/media/Kunjan_Ballawar_Resume.pdf": "/static/media/Kunjan_Ballawar_Resume.7c740eb6f21685c732ed.pdf",
     "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
     "static/media/typescript.png": "/static/media/typescript.17936c69824e11a996c4.png",
     "static/media/Dsa.png": "/static/media/Dsa.24991eee32623f453b1c.png",
@@ -21,11 +21,11 @@
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.0fd0c66b.css.map": "/static/css/main.0fd0c66b.css.map",
-    "main.f1bdcea7.js.map": "/static/js/main.f1bdcea7.js.map",
+    "main.b91aa914.js.map": "/static/js/main.b91aa914.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fd0c66b.css",
-    "static/js/main.f1bdcea7.js"
+    "static/js/main.b91aa914.js"
   ]
 }
