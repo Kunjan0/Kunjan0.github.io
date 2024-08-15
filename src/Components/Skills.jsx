@@ -220,7 +220,7 @@ const Skills = () => {
           ))
           : null}
       </div> : null}
-      
+
       <Flex
         id="tools"
         data-aos="flip-left"
@@ -232,6 +232,7 @@ const Skills = () => {
       >
         <h1 style={{ color: "var(--color-font)", marginLeft: "23%" }}>Tools </h1>
       </Flex>
+      
       <div id="skillsdiv">
         {toolsarr.map((el) => (
           <div
