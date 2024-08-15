@@ -1,21 +1,22 @@
 import "../Style/topNavbar.css";
 import React, { useState } from "react";
 import NavDrawer from "./NavDrawer";
+import resume from "../Components/Resume/Kunjan_Ballawar_Resume.pdf"
+export const resumeLink = "https://drive.google.com/file/d/1q_4UXGLHsuLG6qWz5uPVoXeAwqObEODU/view?usp=sharing";
 
 const TopNavbar = () => {
   const [current, setCurrent] = useState("#home");
-  const handleClick = () => {
-    window.open(
-      "https://drive.google.com/file/d/1eOoHcITaPSbmI_EUjHZ1iDJh_emk1Quz/view",
-      "_blank"
-    );
-  };
+
+  const handleResume = () => {
+    window.open(resumeLink)
+  }
+
   return (
     <div id="nav-menu">
-      <div style={{ height: "10vh" }} id="topnav">
+      <div style={{ height: "10vh"}} id="topnav">
         <a href="https://kunjan0.github.io/">
           <div style={{ marginLeft: "40px", align: "center", padding: "4px" }}>
-            <img width={"70px"} src={"https://i.postimg.cc/NfZdXBh4/logo.jpg"} alt="logo" />
+            <img width={"70px"} src={"https://i.postimg.cc/4NDkkttr/logo.jpg"} alt="logo" />
           </div>
         </a>
         <div id="navel">
@@ -82,15 +83,16 @@ const TopNavbar = () => {
           </div>
           <div onClick={() => setCurrent("#resume")}>
 
-
-            <button
-              id="resume-button-1"
-              className={current === "#resume" ? "nav-link resume" : null}
-              onClick={handleClick}
-            >
-              <a id="resume-link-1" href="./Images/Kunjan_Ballawar_Resume.pdf" target="_blank" rel="noreferrer" download>
+            <button id="resume-button-1" onClick={handleResume}        >
+              <a
+                id="resume-link-1"
+                href={resume}
+                download="Kunjan_ballawar_resume"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Resume
-              </a>{" "}
+              </a>
             </button>
 
           </div>

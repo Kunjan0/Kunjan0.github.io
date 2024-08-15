@@ -6,7 +6,7 @@
 
   border-radius: 1rem;
   color: white;
-  background-color: rgb(225, 225, 225);
+  background-color:#A4BC92;
 }
 #contact{
   margin-bottom: 50px;
@@ -25,7 +25,7 @@
     padding:10px
 } */
 #contactform a {
-  color: grey;
+  color: #7AA874;
 }
 #contactform > :nth-child(2) {
   background-color: white;
@@ -33,7 +33,7 @@
   width: 70%;
 }
 #contactform > :nth-child(1) > div {
-  border: 1px solid grey;
+  border: 1px solid #7AA874;
 }
 #contactform > div {
 
@@ -48,14 +48,14 @@
   font-weight: bold;
   padding: 7px;
   width: 80%;
-  border: 1px solid grey;
+  border: 1px solid #7AA874;
 
   border-radius: 5px;
   /* border: 2px solid var(--color-bg) */
 }
 #btnform {
   margin-top: 20px;
-  background-color: grey;
+  background-color: #7AA874;
   color: white;
   
 }
@@ -64,8 +64,8 @@
   width: 70%;
   margin-top: 30px;
   border-radius: 3rem;
-  border: 4px solid grey;
-  box-shadow: grey 0px 10px 20px, grey 0px 6px 6px;
+  border: 4px solid #7AA874;
+  box-shadow: #7AA874 0px 10px 20px, #7AA874 0px 6px 6px;
   margin: auto;
   margin-top: 30px;
 
@@ -120,7 +120,7 @@ border:1px solid rgb(43, 255, 0); */
 }
 #socialgit a {
   font-size: 40px;
-  color: grey;
+  color: #7AA874;
 }
 @media all and (min-width: 767px) and (max-width: 1115px) {
   
@@ -157,7 +157,7 @@ border:1px solid rgb(43, 255, 0); */
     font-weight: bold;
     padding: 7px;
     width: 80%;
-    border: 2px solid grey;
+    border: 2px solid #7AA874;
 
     border-radius: 5px;
     /* border: 2px solid var(--color-bg) */
@@ -167,8 +167,8 @@ border:1px solid rgb(43, 255, 0); */
     width: 85%;
     margin-top: 30px;
     border-radius: 3rem;
-    border: 8px solid grey;
-    box-shadow: grey 0px 10px 20px, grey 0px 6px 6px;
+    border: 8px solid #7AA874;
+    box-shadow: #7AA874 0px 10px 20px, #7AA874 0px 6px 6px;
     margin: auto;
     font-size: 14px;
     margin-top: 30px;

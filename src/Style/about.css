@@ -3,6 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   font-size: 15px;
   width: 85%;
+  margin-top: 10%;
   margin: auto;
   color: var(--color-heading);
   gap: 50px;

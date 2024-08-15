@@ -12,7 +12,7 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 :root{
-  --color-font:grey ;
+  --color-font:#7AA874 ;
   --color-bg:var(--color-font);
   --color-second:var(--color-font);
   --color-text:white;
@@ -26,7 +26,7 @@ input[type="number"]::-webkit-outer-spin-button {
   background-color: white;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: grey;
+  background-color: #7AA874;
 }
 
 html{
@@ -39,8 +39,8 @@ button {
   font-size: 1.1em;
   font-weight: bold;
   color:var(--color-heading);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  box-shadow: grey 0px 10px 20px, grey 0px 6px 6px;
+  box-shadow: rgb(16, 0, 0) 0px 5px 15px;
+  box-shadow: #7AA874 0px 10px 20px, #7AA874 0px 6px 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-weight: 500;
   font-family: inherit;
@@ -49,10 +49,9 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: black;
-  background-color: grey;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-color: #7AA874;
+  box-shadow: rgb(16, 0, 0) 0px 5px 15px;
+  box-shadow: rgb(16, 0, 0) 0px 5px 15px;
  
   transition: 0.5ms;
   color:white
@@ -66,7 +65,7 @@ section{
  margin-top: 30px;
   padding: 10px;
   height:40px;
-  background-color: grey;
+  background-color: #7AA874;
   color:white;
   text-align: center;
   margin: auto;

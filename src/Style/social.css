@@ -4,7 +4,7 @@
   margin-left: 2%;
   position: fixed;
   z-index: 2;
-  color: grey;
+  color: #7AA874;
   justify-content: space-between;
   bottom: 5rem;
 }
@@ -14,17 +14,17 @@
   margin-left: 96%;
   position: fixed;
   z-index: 2;
-  color: grey;
+  color: #7AA874;
   justify-content: space-between;
   bottom: 5rem;
 }
 #git:hover {
-  color: grey;
+  color: #7AA874;
   font-size: 3rem;
   transition: ease 0.5s;
 }
 #link:hover {
-  color: grey;
+  color: #7AA874;
   font-size: 3rem;
   transition: ease 0.5s;
 }

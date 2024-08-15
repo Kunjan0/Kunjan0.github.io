@@ -35,7 +35,7 @@ function ContactForm() {
   }
 
   return (
-    <section id="contact">
+    <section id="contact" >
       <div
         id="tech"
         data-aos="fade-down-right"

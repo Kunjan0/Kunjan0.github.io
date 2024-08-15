@@ -6,7 +6,7 @@ const Navbar = () => {
   const [activenav, setActiveNav] = React.useState("#home");
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1eOoHcITaPSbmI_EUjHZ1iDJh_emk1Quz/view?usp=share_link",
+      "https://drive.google.com/file/d/1q_4UXGLHsuLG6qWz5uPVoXeAwqObEODU/view?usp=sharing",
       "_blank"
     );
   };

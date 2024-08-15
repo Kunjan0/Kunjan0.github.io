@@ -18,6 +18,8 @@ import typescript from "../Components/Images/typescript.png";
 import npm from "../Components/Images/npm.876.svg";
 import dsa from "../Components/Images/Dsa.png";
 import cypress from "../Components/Images/cypress1.webp";
+import next from "./Images/nextjs.png"
+import tailwind from "./Images/tailwind.png"
 import Aos from "aos";
 import "../Style/skill.css";
 
@@ -43,6 +45,7 @@ const Skills = () => {
     { img: npm, name: "Npm" },
     { img: dsa, name: "DSA" },
     { img: cypress, name: "Cypress" },
+    { img: next, name: "next" },
   ];
   const frontend = [
     { img: html, name: "HTML" },
@@ -54,6 +57,7 @@ const Skills = () => {
     { img: npm, name: "Npm" },
     { img: dsa, name: "DSA" },
     { img: cypress, name: "Cypress" },
+    { img: next, name: "next" },
   ];
   const backend = [
     { img: mongo, name: "Mongo Db" },
@@ -61,13 +65,14 @@ const Skills = () => {
     { img: npm, name: "Npm" },
     { img: express, name: "Express JS" },
     { img: dsa, name: "DSA" },
+    { img: next, name: "next" },
   ];
   const toolsarr = [
     { img: vs, name: "VS Code" },
     { img: github, name: "Github" },
-
     { img: chakra, name: "Chakra UI" },
     { img: git, name: "Git" },
+    { img: tailwind, name: "Tailwind css" },
   ];
 
   return (
@@ -224,7 +229,7 @@ const Skills = () => {
         margin={"auto"}
         justifycontent={"space-around"}
       >
-        <h1 style={{ color: "var(--color-font)" }}>Tools </h1>
+        <h1 style={{ color: "var(--color-font)", marginLeft: "23%" }}>Tools </h1>
       </Flex>
       <div id="skillsdiv">
         {toolsarr.map((el) => (

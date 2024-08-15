@@ -1,23 +1,27 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../Style/home.css";
-
+// import pdf from "./Images/"
 import { Typewriter } from "react-simple-typewriter";
 import AOS from "aos";
 import { Tooltip } from "@chakra-ui/react";
+import resume from "../Components/Resume/Kunjan_Ballawar_Resume.pdf"
+export const resumeLink = "https://drive.google.com/file/d/1q_4UXGLHsuLG6qWz5uPVoXeAwqObEODU/view?usp=sharing";
+
 
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-  const handleClick = () => {
-    window.open(
-      "https://drive.google.com/file/d/1eOoHcITaPSbmI_EUjHZ1iDJh_emk1Quz/view?usp=share_link",
-      "_blank"
-    );
-  };
+
+
+  const [width, setWidth] = useState(1200);
+
+  const handleResume = () => {
+    window.open(resumeLink)
+  }
 
   return (
-    <section id="home" style={{marginTop:"2%"}}>
+    <section id="home">
       <div
 
         data-aos="flip-left"
@@ -28,7 +32,7 @@ const Home = () => {
 
       >
 
-        <img style={{borderRadius:"40px"}} className="home-img" src="https://i.postimg.cc/zq21vRPw/gf.jpg" alt="" />
+        <img style={{ borderRadius: "40px" }} className="home-img" src="https://i.postimg.cc/6pPfsyTX/IMG-20211122-204956.jpg" alt="" />
       </div>
       <div
         data-aos="fade-down-right"
@@ -63,7 +67,7 @@ const Home = () => {
           data-aos-duration="2000"
           data-aos-delay="300"
           id="type"
-        ><br/>
+        ><br />
           <Typewriter
             deleteSpeed={90}
             typeSpeed={100}
@@ -80,23 +84,20 @@ const Home = () => {
           />
         </h1>
 
-
-        <button
-
-          id="resume-button-2"
-          style={{
-            borderRadius: "1rem",
-            color: "white",
-            padding: "15px 20px 15px 20px",
-          }}
-          onClick={handleClick}
-        >
-          <a id="resume-link-2" href='./Images/Kunjan_Ballawar_Resume.pdf' target="_blank" rel="noreferrer" download>
-            Resume
-          </a>
+          <button id="resume-button-2" onClick={handleResume}        >
+            <a
+              id="resume-link-2"
+              href={resume}
+              download="Kunjan_ballawar_resume"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </button>
 
 
-        </button>
+        {/* </button> */}
 
 
         <div id="homesocial">

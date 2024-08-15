@@ -28,7 +28,7 @@
 #gitstats>img{
   width: 100%;
   border-radius: 1rem;
-  border: 4px solid grey;
+  border: 4px solid #7AA874;
   /* box-shadow: var(--color-bg) 0px 10px 20px, var(--color-bg) 0px 6px 6px; */
 }
 #calendar{
