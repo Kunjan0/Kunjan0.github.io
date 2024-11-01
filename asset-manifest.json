@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ead83ba0.css",
-    "main.js": "/static/js/main.b20030d7.js",
+    "main.js": "/static/js/main.9ea79cc9.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
     "static/media/Kunjan_Ballawar_Resume.pdf": "/static/media/Kunjan_Ballawar_Resume.d429fef1f753ae15400c.pdf",
@@ -22,11 +22,11 @@
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.ead83ba0.css.map": "/static/css/main.ead83ba0.css.map",
-    "main.b20030d7.js.map": "/static/js/main.b20030d7.js.map",
+    "main.9ea79cc9.js.map": "/static/js/main.9ea79cc9.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ead83ba0.css",
-    "static/js/main.b20030d7.js"
+    "static/js/main.9ea79cc9.js"
   ]
 }
